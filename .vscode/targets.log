@@ -1,0 +1,697 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'c:\users\ravenelco\documents\toolchains\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdint.h', needed by 'gcc/project0.o'.  Stop.
+
+# GNU Make 4.3
+# Built for x86_64-pc-msys
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+# Make data base, printed on Thu Aug 25 16:57:06 2022
+
+# Variables
+
+# environment
+ 
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+SYSTEMDRIVE = C:
+# environment
+LC_ALL = C
+# makefile (from 'makedefs', line 116)
+AR = ${PREFIX}-ar
+# environment
+USERPROFILE = C:\Users\Carlo Iván
+# environment
+LOCALAPPDATA = C:\Users\Carlo Iván\AppData\Local
+# makefile (from 'Makefile', line 44)
+VPATH = ../drivers ../../../utils
+# environment
+VSCODE_CWD = D:\carlo\AAAAAAAAAAAAAAAAAA\Mircroo\Practica_1TM4C123
+# environment
+SYSTEMROOT = C:\WINDOWS
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\PowerShell\Modules\
+# makefile (from 'Makefile', line 84)
+SCATTERgcc_project0 = project0.ld
+# makefile (from 'Makefile', line 50)
+IPATH = .. ../../..
+# default
+MAKE_COMMAND := make
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_14088_CLUGQDSGYNBTEJNW
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+SW_SIM_HYDRA = C:\Program Files\Common Files\SolidWorks Shared\Simulation Worker Agent\
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# automatic
+%F = $(notdir $%)
+# makefile (from 'Makefile', line 85)
+ENTRY_project0 = ResetISR
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\Carlo Iván\AppData\Roaming\Code\CachedData\e4503b30fc78200f846c62cf8091b76ff5547662
+# environment
+LANG = C
+# default
+.LOADED := 
+# environment
+TMP = /c/Users/CARLOI~1/AppData/Local/Temp
+# default
+.INCLUDE_DIRS = /usr/include /usr/include
+# makefile
+MAKEFLAGS = pqrR
+# environment
+ONEDRIVE = C:\Users\Carlo Iván\OneDrive
+# makefile
+CURDIR := /d/carlo/AAAAAAAAAAAAAAAAAA/Mircroo/Practica_1TM4C123
+# environment
+LM_LICENSE_FILE = D:\Descargas
+# makefile (from 'makedefs', line 141)
+LIBM := d:/carlo/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libm.a
+# makefile (from 'makedefs', line 136)
+LIBC := d:/carlo/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc.a
+# environment
+ 
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+PROGRAMFILES = C:\Program Files
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# makefile (from 'gcc/startup_gcc.d', line 1)
+MAKEFILE_LIST := Makefile makedefs gcc/project0.d gcc/startup_gcc.d
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_PID = 14088
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+*F = $(notdir $*)
+# environment
+SW_SIM_TEMP = C:\ProgramData\SOLIDWORKS\SW_net_sim_temp\
+# environment
+ARMGCC_DIR = D:\carlo\gcc-arm-none-eabi-10.3-2021.10\bin
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"es","availableLanguages":{"*":"es"},"_languagePackId":"9336b18a2694f1b71e2417b4e335df52.es","_translationsConfigFile":"C:\\Users\\Carlo Iván\\AppData\\Roaming\\Code\\clp\\9336b18a2694f1b71e2417b4e335df52.es\\tcf.json","_cacheRoot":"C:\\Users\\Carlo Iván\\AppData\\Roaming\\Code\\clp\\9336b18a2694f1b71e2417b4e335df52.es","_resolvedLanguagePackCoreLocation":"C:\\Users\\Carlo Iván\\AppData\\Roaming\\Code\\clp\\9336b18a2694f1b71e2417b4e335df52.es\\e4503b30fc78200f846c62cf8091b76ff5547662","_corruptedFile":"C:\\Users\\Carlo Iván\\AppData\\Roaming\\Code\\clp\\9336b18a2694f1b71e2417b4e335df52.es\\corrupted.info","_languagePackSupport":true}
+# environment
+ONEDRIVECONSUMER = C:\Users\Carlo Iván\OneDrive
+# default
+MAKE_HOST := x86_64-pc-msys
+# makefile (from 'makedefs', line 55)
+COMPILER = gcc
+# environment
+PROGRAMDATA = C:\ProgramData
+# default
+SHELL := /bin/sh
+# environment
+HOMEPATH = \Users\Carlo Iván
+# default
+MAKECMDGOALS := all
+# makefile (from 'Makefile', line 86)
+CFLAGSgcc = -DTARGET_IS_TM4C123_RB1
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# environment
+WINDIR = C:\WINDOWS
+ 
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /c/Windows/system32:/c/Windows:/c/Windows/System32/Wbem:/c/Windows/System32/WindowsPowerShell/v1.0:/c/Windows/System32/OpenSSH:/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/c/WINDOWS/system32:/c/WINDOWS:/c/WINDOWS/System32/Wbem:/c/WINDOWS/System32/WindowsPowerShell/v1.0:/c/WINDOWS/System32/OpenSSH:/c/Program Files/MATLAB/R2017b/runtime/win64:/c/Program Files/MATLAB/R2017b/bin:/d/PROGRAMAS/PICC:/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn:/c/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn:/c/Program Files/Microsoft SQL Server/120/Tools/Binn:/c/Program Files/Microsoft SQL Server/120/DTS/Binn:/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit:/usr/bin:/c/Program Files/dotnet:/c/MinGW/bin:/d/PROGRAMAS:/c/Program Files/Git/cmd:/c/Program Files/Git/mingw64/bin:/c/Program Files/Git/usr/bin:/c/Users/Carlo Iván/AppData/Local/Programs/Python/Python310/Scripts:/c/Users/Carlo Iván/AppData/Local/Programs/Python/Python310:/c/Users/Carlo Iván/AppData/Local/Microsoft/WindowsApps:/c/Users/Carlo Iván/AppData/Local/Programs/Microsoft VS Code/bin:/d/carlo/AAAAAAAAAAAAAAAAAA/Micro/toolchains/make-3.81-bin/bin:/d/carlo/gcc-arm-none-eabi-10.3-2021.10/bin:/c/Users/Carlo Iván/AppData/Roaming/npm:/d/Escritorio/OpenOCD-20211118-0.11.0/bin:/d/Escritorio/xpack-openocd-0.11.0-3/bin
+# environment
+ZES_ENABLE_SYSMAN = 1
+# environment
+COMPUTERNAME = DESKTOP-L51APP1
+# default
+MAKEFILES := 
+# automatic
+^F = $(notdir $^)
+# environment
+SW_SIM_MPIT = INTELMPI
+# makefile (from 'makedefs', line 88)
+FPU = -mfpu=fpv4-sp-d16 -mfloat-abi=softfp
+# environment
+PROMPT = $P$G
+# makefile (from 'Makefile', line 28)
+PART = TM4C123GH6PM
+# makefile (from 'makedefs', line 47)
+os := MSYS_NT-10.0-19043
+# makefile (from 'Makefile', line 33)
+ROOT = ../../..
+# makefile (from 'makedefs', line 167)
+AFLAGS = -mthumb ${CPU} ${FPU} -MD ${patsubst %,-I%,${subst :, ,${IPATH}}}
+# makefile (from 'makedefs', line 69)
+PREFIX := arm-none-eabi
+# environment
+LOGONSERVER = \\DESKTOP-L51APP1
+# makefile (from 'makedefs', line 131)
+LIBGCC := d:/carlo/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/softfp/libgcc.a
+# environment
+USERNAME = CIRA
+# makefile (from 'makedefs', line 87)
+CPU = -mcpu=cortex-m4
+# environment
+COMMONPROGRAMFILES = C:\Program Files\Common Files
+# makefile (from 'makedefs', line 82)
+ARMGCC_ROOT := /d/carlo/gcc-arm-none-eabi-10.3-2021.10/bin/..
+# automatic
+?F = $(notdir $?)
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# automatic
++F = $(notdir $+)
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERDOMAIN = DESKTOP-L51APP1
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+OS = Windows_NT
+# makefile
+.DEFAULT_GOAL := all
+# default
+MAKE_VERSION := 4.3
+# 'override' directive
+.SHELLSTATUS := 0
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+ 
+# makefile (from 'makedefs', line 126)
+LDFLAGS = --gc-sections
+# environment
+!D: = d:\carlo\AAAAAAAAAAAAAAAAAA\Mircroo\Practica_1TM4C123
+# environment
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-L51APP1
+# environment
+NUMBER_OF_PROCESSORS = 12
+# environment
+PUBLIC = C:\Users\Public
+# environment
+APPDATA = C:\Users\Carlo Iván\AppData\Roaming
+# makefile (from 'makedefs', line 168)
+CFLAGS = -mthumb ${CPU} ${FPU} -ffunction-sections -fdata-sections -MD -std=c11 -Wall -pedantic -DPART_${PART} -c -Os ${CFLAGSgcc} ${patsubst %,-I%,${subst :, ,${IPATH}}}
+# environment
+HOMEDRIVE = C:
+# environment
+PROCESSOR_ARCHITECTURE = AMD64
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/CIRA
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+TEMP = /c/Users/CARLOI~1/AppData/Local/Temp
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\1a95175c5a11a0e4a21a6f14e0ec99e2-1.70.2-main-sock
+# environment
+TERM = xterm-256color
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# makefile (from 'makedefs', line 121)
+LD = ${PREFIX}-ld
+# environment
+SESSIONNAME = Console
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
+# environment
+PROCESSOR_REVISION = a502
+# makefile (from 'makedefs', line 75)
+CC = ${PREFIX}-gcc
+ 
+# makefile (from 'makedefs', line 146)
+OBJCOPY = ${PREFIX}-objcopy
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 165 Stepping 2, GenuineIntel
+# variable set hash-table stats:
+# Load=122/1024=12%, Rehash=0, Collisions=23/241=10%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# ../drivers: could not be stat'd.
+# gcc (device 3961097898, inode 844424930523383): 8 files, no impossibilities.
+# . (device 3961097898, inode 1407374883944595): 15 files, no impossibilities.
+# ../../../utils: could not be stat'd.
+
+# 23 files, no impossibilities in 4 directories.
+
+# Implicit Rules
+
+gcc/%.o: %.c
+#  recipe to execute (from 'makedefs', line 174):
+	@if [ 'x${VERBOSE}' = x ];                            \
+	 then                                                 \
+	     echo "  CC    ${<}";                             \
+	 else                                                 \
+	     echo ${CC} ${CFLAGS} -D${COMPILER} -o ${@} ${<}; \
+	 fi
+	@${CC} ${CFLAGS} -D${COMPILER} -o ${@} ${<}
+
+gcc/%.o: %.S
+#  recipe to execute (from 'makedefs', line 192):
+	@if [ 'x${VERBOSE}' = x ];                               \
+	 then                                                    \
+	     echo "  AS    ${<}";                                \
+	 else                                                    \
+	     echo ${CC} ${AFLAGS} -D${COMPILER} -o ${@} -c ${<}; \
+ 
+	 fi
+	@${CC} ${AFLAGS} -D${COMPILER} -o ${@} -c ${<}
+
+gcc/%.a:
+#  recipe to execute (from 'makedefs', line 210):
+	@if [ 'x${VERBOSE}' = x ];     \
+	 then                          \
+	     echo "  AR    ${@}";      \
+	 else                          \
+	     echo ${AR} -cr ${@} ${^}; \
+	 fi
+	@${AR} -cr ${@} ${^}
+
+gcc/%.axf:
+#  recipe to execute (from 'makedefs', line 222):
+	@if [ 'x${SCATTERgcc_${notdir ${@:.axf=}}}' = x ];                    \
+	 then                                                                 \
+	     ldname="${ROOT}/build/standalone.ld";                              \
+	 else                                                                 \
+	     ldname="${SCATTERgcc_${notdir ${@:.axf=}}}";                     \
+	 fi;                                                                  \
+	 if [ 'x${VERBOSE}' = x ];                                            \
+	 then                                                                 \
+	     echo "  LD    ${@} ${LNK_SCP}";                                  \
+	 else                                                                 \
+	     echo ${LD} -T $${ldname}                                         \
+	          --entry ${ENTRY_${notdir ${@:.axf=}}}                       \
+	          ${LDFLAGSgcc_${notdir ${@:.axf=}}}                          \
+	          ${LDFLAGS} -o ${@} $(filter %.o %.a, ${^})                  \
+	          '${LIBM}' '${LIBC}' '${LIBGCC}';                            \
+	 fi;                                                                  \
+	${LD} -T $${ldname}                                                   \
+	      --entry ${ENTRY_${notdir ${@:.axf=}}}                           \
+	      ${LDFLAGSgcc_${notdir ${@:.axf=}}}                              \
+	      ${LDFLAGS} -o ${@} $(filter %.o %.a, ${^})                      \
+	      '${LIBM}' '${LIBC}' '${LIBGCC}'
+	@${OBJCOPY} -O binary ${@} ${@:.axf=.bin}
+
+# 4 implicit rules, 0 (0.0%) terminal.
+# Files
+
+# Not a target:
+project0.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-29 02:25:34.3711885
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+lib/include.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-29 02:25:34.369201
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+c:\users\ravenelco\documents\toolchains\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\machine\_types.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+ 
+#  File has not been updated.
+
+# Not a target:
+c:\users\ravenelco\documents\toolchains\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\config.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+makedefs:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-29 02:25:34.3711885
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+c:\users\ravenelco\documents\toolchains\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\stdint.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+lib/hw_nvic.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# makefile (from 'Makefile', line 62)
+debug: CFLAGS += -g -D DEBUG
+debug: gcc gcc/project0.axf
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=1/32=3%, Rehash=0, Collisions=0/3=0%
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-29 02:25:34.3642071
+#  File has been updated.
+#  Successfully updated.
+
+gcc/project0.axf: gcc/project0.o gcc/startup_gcc.o project0.ld
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'project0'
+#  Last modified 2022-06-29 02:25:34.3652152
+#  File has not been updated.
+#  recipe to execute (from 'makedefs', line 222):
+ 
+	@if [ 'x${SCATTERgcc_${notdir ${@:.axf=}}}' = x ];                    \
+	 then                                                                 \
+	     ldname="${ROOT}/build/standalone.ld";                              \
+	 else                                                                 \
+	     ldname="${SCATTERgcc_${notdir ${@:.axf=}}}";                     \
+	 fi;                                                                  \
+	 if [ 'x${VERBOSE}' = x ];                                            \
+	 then                                                                 \
+	     echo "  LD    ${@} ${LNK_SCP}";                                  \
+	 else                                                                 \
+	     echo ${LD} -T $${ldname}                                         \
+	          --entry ${ENTRY_${notdir ${@:.axf=}}}                       \
+	          ${LDFLAGSgcc_${notdir ${@:.axf=}}}                          \
+	          ${LDFLAGS} -o ${@} $(filter %.o %.a, ${^})                  \
+	          '${LIBM}' '${LIBC}' '${LIBGCC}';                            \
+	 fi;                                                                  \
+	${LD} -T $${ldname}                                                   \
+	      --entry ${ENTRY_${notdir ${@:.axf=}}}                           \
+	      ${LDFLAGSgcc_${notdir ${@:.axf=}}}                              \
+	      ${LDFLAGS} -o ${@} $(filter %.o %.a, ${^})                      \
+	      '${LIBM}' '${LIBC}' '${LIBGCC}'
+	@${OBJCOPY} -O binary ${@} ${@:.axf=.bin}
+
+# Not a target:
+c:\users\ravenelco\documents\toolchains\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\_ansi.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+lib/TM4C123GH6PM.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+c:\users\ravenelco\documents\toolchains\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\_intsup.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+project0.ld:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 70):
+	@rm -rf ${COMPILER} ${wildcard *~}
+
+# Not a target:
+c:\users\ravenelco\documents\toolchains\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\cdefs.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+ 
+#  File has not been updated.
+
+# Not a target:
+c:\users\ravenelco\documents\toolchains\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\machine\ieeefp.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+c:\users\ravenelco\documents\toolchains\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\machine\stdlib.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+c:\users\ravenelco\documents\toolchains\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\_stdint.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+gcc/startup_gcc.o: startup_gcc.c c:\users\ravenelco\documents\toolchains\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdint.h c:\users\ravenelco\documents\toolchains\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\stdint.h c:\users\ravenelco\documents\toolchains\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\machine\_default_types.h c:\users\ravenelco\documents\toolchains\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\features.h c:\users\ravenelco\documents\toolchains\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\_newlib_version.h c:\users\ravenelco\documents\toolchains\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\_intsup.h c:\users\ravenelco\documents\toolchains\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\_stdint.h lib/hw_nvic.h lib/hw_types.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+lib/../CMSIS/Include/core_cm4.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+c:\users\ravenelco\documents\toolchains\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\string.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+c:\users\ravenelco\documents\toolchains\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\_newlib_version.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+c:\users\ravenelco\documents\toolchains\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\reent.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+ 
+# Not a target:
+c:\users\ravenelco\documents\toolchains\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdint.h:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+c:\users\ravenelco\documents\toolchains\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\newlib.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: gcc gcc/project0.axf
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+gcc:
+#  Implicit rule search has not been done.
+#  Last modified 2022-06-29 02:25:34.3671993
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 76):
+	@mkdir -p ${COMPILER}
+
+# Not a target:
+c:\users\ravenelco\documents\toolchains\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\math.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+c:\users\ravenelco\documents\toolchains\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdbool.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+c:\users\ravenelco\documents\toolchains\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\stdlib.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+lib/../lib/system_TM4C123.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+c:\users\ravenelco\documents\toolchains\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\string.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+startup_gcc.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+ 
+# Not a target:
+c:\users\ravenelco\documents\toolchains\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stddef.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+gcc/project0.d:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-29 02:25:34.3662019
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+lib/../CMSIS/Include/core_cmFunc.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+gcc/startup_gcc.d:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-29 02:25:34.3662019
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+lib/../CMSIS/Include/core_cm4_simd.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+c:\users\ravenelco\documents\toolchains\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\machine\_default_types.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+c:\users\ravenelco\documents\toolchains\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\features.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+lib/hw_types.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+ 
+
+# Not a target:
+c:\users\ravenelco\documents\toolchains\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\lock.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+lib/../CMSIS/Include/core_cmInstr.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+c:\users\ravenelco\documents\toolchains\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\_types.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+__dummy__:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+gcc/project0.o: project0.c project0.c lib/include.h c:\users\ravenelco\documents\toolchains\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdint.h c:\users\ravenelco\documents\toolchains\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\stdint.h c:\users\ravenelco\documents\toolchains\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\machine\_default_types.h c:\users\ravenelco\documents\toolchains\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\features.h c:\users\ravenelco\documents\toolchains\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\_newlib_version.h c:\users\ravenelco\documents\toolchains\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\_intsup.h c:\users\ravenelco\documents\toolchains\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\_stdint.h c:\users\ravenelco\documents\toolchains\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdbool.h c:\users\ravenelco\documents\toolchains\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\stdlib.h c:\users\ravenelco\documents\toolchains\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\machine\ieeefp.h c:\users\ravenelco\documents\toolchains\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\_ansi.h c:\users\ravenelco\documents\toolchains\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\newlib.h c:\users\ravenelco\documents\toolchains\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\config.h c:\users\ravenelco\documents\toolchains\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stddef.h c:\users\ravenelco\documents\toolchains\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\reent.h c:\users\ravenelco\documents\toolchains\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\_ansi.h c:\users\ravenelco\documents\toolchains\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\_types.h c:\users\ravenelco\documents\toolchains\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\machine\_types.h c:\users\ravenelco\documents\toolchains\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\lock.h c:\users\ravenelco\documents\toolchains\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\cdefs.h c:\users\ravenelco\documents\toolchains\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\machine\stdlib.h c:\users\ravenelco\documents\toolchains\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\string.h c:\users\ravenelco\documents\toolchains\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\string.h c:\users\ravenelco\documents\toolchains\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\math.h lib/TM4C123GH6PM.h lib/../CMSIS/Include/core_cm4.h lib/../CMSIS/Include/core_cmInstr.h lib/../CMSIS/Include/core_cmFunc.h lib/../CMSIS/Include/core_cm4_simd.h lib/../lib/system_TM4C123.h
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'project0'
+#  Last modified 2022-06-29 02:25:34.3662019
+#  File has not been updated.
+#  recipe to execute (from 'makedefs', line 174):
+	@if [ 'x${VERBOSE}' = x ];                            \
+	 then                                                 \
+	     echo "  CC    ${<}";                             \
+	 else                                                 \
+	     echo ${CC} ${CFLAGS} -D${COMPILER} -o ${@} ${<}; \
+	 fi
+	@${CC} ${CFLAGS} -D${COMPILER} -o ${@} ${<}
+
+# files hash-table stats:
+# Load=49/1024=5%, Rehash=0, Collisions=6/129=5%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# General ('VPATH' variable) search path:
+# ../drivers:../../../utils
+
+# strcache buffers: 1 (0) / strings = 74 / storage = 3119 B / avg = 42 B
+ 
+# current buf: size = 8162 B / used = 3119 B / count = 74 / avg = 42 B
+
+# strcache performance: lookups = 128 / hit rate = 42%
+# hash-table stats:
+# Load=74/8192=1%, Rehash=0, Collisions=0/128=0%
+# Finished Make data base on Thu Aug 25 16:57:06 2022
+
+ 
